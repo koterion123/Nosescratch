@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-image: url("img/pipl_1.png") ;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 1em;
+}
+
+header{
+    margin: 0 auto 570px;
+    text-align: right;
+}
+header .container,
+footer .container{
+    padding: 0 10px 17px;
+    max-width: 1700px;
+    /*margin: auto;*/
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 0.7em;
+}
+
+.slogan{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 10px;
+}
+
+header a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button{
+    background-color: rgb(224, 117, 45);
+    padding: 5px;
+    border: 2px solid rgb(204, 134, 88);
+    border-radius: 0.3em;
+    color: white;
+}
+ 
+section{
+    /*padding: 200px ;*/
+    /*border: 1px solid blue;*/
+}
+
+.why .container, 
+.team .container, 
+.form .container,
+.contacts .container{
+    background-color: rgba(255, 255, 255, 0.301);
+    /*background-color: rgb(224, 117, 45);*/
+    max-width: 1200px;
+    min-width: 200px;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    margin: 200px auto;
+}
+
+.team .container{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.teamcard{
+    display: inline-block;
+    /*float: left;*/
+    background-color: silver;
+    padding: 20px;
+    border: 2px solid white;
+    max-width: 300px;
+    height: 500px;
+    margin: auto 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.teamcard img{
+    border: 1px solid white;
+    width: 270px;
+}
+
+.form{
+    text-align: center;
+}
+
+.form input{
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid rgb(204, 134, 88);
+    border-radius: 0.3em;
+}
+
+footer{
+    background-color: lightslategrey;
+}
